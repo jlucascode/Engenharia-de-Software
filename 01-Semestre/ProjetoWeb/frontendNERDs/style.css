@@ -1,0 +1,36 @@
+:root{
+  --primary: #c2185b; /* cor principal (rosa/magenta) */
+  --bg: #ffffff;
+  --text: #222;
+}
+
+/* Reset simples */
+*{box-sizing:border-box}
+body{margin:0;font-family: Arial, Helvetica, sans-serif;background:var(--bg);color:var(--text)}
+.container{max-width:900px;margin:0 auto;padding:20px}
+
+/* Cabeçalho */
+.site-header{background:var(--primary)}
+.site-title{color:#fff;margin:0;padding:18px;font-size:24px}
+
+/* Área principal */
+.hero{padding:30px 0}
+.hero-inner{display:flex;gap:20px}
+.hero-content{flex:1}
+.hero-content h2{margin-top:0}
+.hero-content ul{margin-top:8px}
+
+/* Formulário simples: labels acima dos inputs (didático) */
+.hero-form{width:320px}
+.lead-form label{display:block;margin-bottom:6px;font-weight:600}
+.lead-form input{width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;margin-bottom:12px}
+
+.btn-primary{display:inline-block;background:var(--primary);color:#fff;padding:10px 16px;border-radius:6px;border:none;cursor:pointer}
+
+.site-footer{padding:16px 0;text-align:center;color:#666}
+
+/* Responsivo simples */
+@media (max-width: 800px){
+  .hero-inner{flex-direction:column}
+  .hero-form{width:100%}
+}

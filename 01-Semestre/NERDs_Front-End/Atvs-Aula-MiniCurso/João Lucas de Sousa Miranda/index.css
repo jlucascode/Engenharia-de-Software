@@ -1,0 +1,51 @@
+:root{
+	--bg: #0f1720;
+	--card: #0b1220;
+	--muted: #94a3b8;
+	--accent:#f97316;
+	--surface:#0b1220;
+	--glass: rgba(255,255,255,0.03);
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+	margin:0;
+	font-family: Inter, Roboto, Arial, sans-serif;
+	background: linear-gradient(180deg,var(--bg),#071023);
+	color:#e6eef8;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	padding:24px;
+}
+
+.container{
+	max-width:900px;
+	margin:0 auto;
+	display:grid;
+	gap:18px;
+	grid-auto-rows:min-content;
+}
+
+header h1{margin:0;font-size:1.6rem}
+.subtitle{color:var(--muted);margin-top:6px}
+
+.card{
+	background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+	border-radius:10px;
+	padding:16px;
+	box-shadow:0 6px 20px rgba(2,6,23,0.6);
+}
+
+.examples{display:flex;gap:12px;align-items:center}
+button{background:var(--accent);border:0;padding:10px 14px;border-radius:8px;color:#071023;font-weight:600;cursor:pointer}
+button.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);font-weight:500}
+
+#output{background:rgba(0,0,0,0.25);padding:12px;border-radius:8px;min-height:120px;overflow:auto;white-space:pre-wrap;color:#dff6ff}
+
+.footer{display:flex;justify-content:space-between;align-items:center}
+
+@media (max-width:600px){
+	.container{padding:6px}
+	header h1{font-size:1.25rem}
+}

@@ -1,0 +1,4 @@
+codigos vista na aula 3
+node -v (Ve a versão)
+npm create vite@latest  (faz toda a instalação etc, passo a passo)
+npm run dev

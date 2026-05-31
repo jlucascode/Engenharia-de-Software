@@ -1,0 +1,21 @@
+1) Qual a utilidade do aprendizado do uso de ponteiro para aplicações em engenharia?
+
+Ponteiros são fundamentais em engenharia por diversas razoes:
+
+- Manipulação direta de memoria: Permitem acesso e modificação de endereços de memoria,
+  essencial em sistemas embarcados e programação de hardware (microcontroladores, drivers).
+
+- Alocação dinâmica: Permitem criar estruturas de dados flexíveis (listas, arvores, filas)
+  cujo tamanho e definido em tempo de execução.
+
+- Passagem por referencia: Evita copias desnecessárias de grandes estruturas de dados em
+  funções, otimizando memoria e desempenho.
+
+- Vetores e matrizes: Em C, arrays são acessados via ponteiros, essencial para processamento
+  de sinais, imagens e simulações numéricas.
+
+- Ponteiros para funções: Permitem callbacks e polimorfismo, usados em bibliotecas numéricas
+  e de controle.
+
+- Sistemas operacionais e tempo real: Gerenciamento de memoria, escalonamento e
+  comunicação entre processos dependem de ponteiros.
