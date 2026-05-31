@@ -43,7 +43,3 @@ O repositório está organizado por semestres, facilitando a consulta rápida de
 3. Aplicar boas práticas de código (Clean Code) desde os exercícios acadêmicos.
 
 ---
-**Maestro Acadêmico** - *Agente Orquestrador de Estudos*
-```
-
----
